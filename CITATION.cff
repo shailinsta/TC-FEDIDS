@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "TC-FedIDS: Trajectory-Aware Federated Intrusion Detection with Environment-Invariant Aggregation and Empirical Byzantine Robustness under Differential Privacy"
+authors:
+  - family-names: Mishra
+    given-names: Saumya
+    affiliation: "Department of Computer Science and Engineering, MNNIT Allahabad, India"
+  - family-names: Rathi
+    given-names: Megha
+    affiliation: "Department of Computer Science and Engineering, Jaypee Institute of Information Technology, Noida, India"
+  - family-names: Khan
+    given-names: Ahmad Raza
+    affiliation: "Department of IT, College of Computer and Information Sciences, Majmaah University, Al-Majmaah 11952, Saudi Arabia"
+  - family-names: Mishra
+    given-names: Shailendra
+    affiliation: "Department of Computer Engineering, College of Computer and Information Sciences, Majmaah University, Al-Majmaah 11952, Saudi Arabia"
+keywords:
+  - Federated learning
+  - Intrusion detection
+  - Byzantine robustness
+  - Update trajectories
+  - Trust-aware aggregation
+  - GroupDRO
+  - Environment invariance
+  - Differential privacy
+  - NetFlow
+version: "1.0.0"
+date-released: "2025-10-03"
+license: MIT
+repository-code: "https://github.com/YOUR_USERNAME/TC-FedIDS"

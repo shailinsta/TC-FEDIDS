@@ -1,0 +1,9 @@
+ID,Title,Content
+Table 1 / Fig 1,"Clean baseline (0% Byzantine, 0 DP)","BAcc, Macro-F1, Minority recall, wall-clock for all aggregators"
+Table 2 / Fig 2,Baseline comparison under 30% ALIE + statistical tests,Mean +/- std over 5 seeds; Wilcoxon p-values (TC-FedIDS vs each baseline)
+Table 3 / Fig 3,Ablation: Median -> +Trajectory Trust (tc_median) -> +GroupDRO,Correct ablation order with explicit PASS/PARTIAL PASS/FAIL novelty diagnostic
+Table 4 / Fig 4,Computational overhead analysis,"Total wall-clock (s), sec/round, #parameters"
+Table 5 / Fig 5,"Experimental (eps, delta)-DP privacy-utility curve",Target eps = None / 8 / 4 / 2 vs BAcc & Minority Recall
+Table 6 / Fig 6,Empirical Byzantine robustness threshold,Byzantine fraction vs mean minority recall; largest tested fraction satisfying MinRec >= 0.50
+Table 7 / Fig 7,Attack-type robustness,Sign-flip / Gaussian / ALIE under 30% Byzantine
+Table 8,Per-source dataset composition,"NF-CSE-CIC-IDS2018, NF-ToN-IoT, UNSW-NB15, CIDDS-001 (real datasets)"

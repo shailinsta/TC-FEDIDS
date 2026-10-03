@@ -1,0 +1,48 @@
+{
+  "title": "TC-FedIDS: Trajectory-Aware Federated Intrusion Detection with Environment-Invariant Aggregation and Empirical Byzantine Robustness under Differential Privacy",
+  "description": "<p>This repository contains the source code, experimental results (tables and figures), and draft manuscript for <strong>TC-FedIDS</strong>, a trajectory-aware federated intrusion-detection framework.</p><p>TC-FedIDS combines (1) multi-round client-update trajectory descriptors (direction persistence, spectral entropy, second-order acceleration, norm variance) fused into an exponential-moving-average trust weight, (2) environment-invariant GroupDRO-style aggregation with a Huber regulariser centred at the coordinate-wise median and solved by FISTA, and (3) an empirical Byzantine robustness evaluation under Rényi differential privacy.</p><p>Experiments are conducted on four real NetFlow datasets (NF-CSE-CIC-IDS2018, NF-ToN-IoT, UNSW-NB15, CIDDS-001) under a 28-client Dirichlet federation. Results include clean baselines, 30% ALIE attack comparisons, ablation of trajectory trust and GroupDRO, computational overhead, privacy–utility curves, Byzantine-fraction sweeps, and attack-type robustness.</p>",
+  "creators": [
+    {
+      "name": "Mishra, Saumya",
+      "affiliation": "Department of Computer Science and Engineering, MNNIT Allahabad, India",
+      "orcid": ""
+    },
+    {
+      "name": "Rathi, Megha",
+      "affiliation": "Department of Computer Science and Engineering, Jaypee Institute of Information Technology, Noida, India",
+      "orcid": ""
+    },
+    {
+      "name": "Khan, Ahmad Raza",
+      "affiliation": "Department of IT, College of Computer and Information Sciences, Majmaah University, Al-Majmaah 11952, Saudi Arabia",
+      "orcid": ""
+    },
+    {
+      "name": "Mishra, Shailendra",
+      "affiliation": "Department of Computer Engineering, College of Computer and Information Sciences, Majmaah University, Al-Majmaah 11952, Saudi Arabia",
+      "orcid": ""
+    }
+  ],
+  "keywords": [
+    "Federated learning",
+    "Intrusion detection",
+    "Byzantine robustness",
+    "Update trajectories",
+    "Trust-aware aggregation",
+    "GroupDRO",
+    "Environment invariance",
+    "Differential privacy",
+    "NetFlow",
+    "FISTA"
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "upload_type": "software",
+  "publication_date": "2025-10-03",
+  "communities": [],
+  "related_identifiers": [],
+  "references": [],
+  "version": "1.0.0",
+  "language": "eng",
+  "notes": "Code, tables, figures and draft paper for TC-FedIDS. Place the four NetFlow datasets under a local Dataset/ directory before running the experiments. See README.md for full instructions."
+}
